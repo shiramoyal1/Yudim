@@ -61,3 +61,73 @@ public class Main {
     }
 }
 
+//q4
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("enter your grade");
+        int grade1 = scan.nextInt();
+        System.out.print("enter your 2 grade");
+        int grade2 = scan.nextInt();
+        System.out.print("enter your 3 grade");
+        int grade3 = scan.nextInt();
+        System.out.print((grade1 + grade2 + grade3) / 3);
+    }
+}
+//q5
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("enter your num");
+        int num1 = scan.nextInt();
+        System.out.print("enter your2 num");
+        int num2 = scan.nextInt();
+        System.out.print("enter your 3 num");
+        int num3 = scan.nextInt();
+        if (num1 < num3 && num1 < num2) {
+            System.out.print(num1 + "is the lowest number");
+        }
+        if (num2 < num1 && num2 < num3) {
+            System.out.print(num2 + "is the lowest number");
+        }
+        if (num3 < num1 && num3 < num2) {
+            System.out.print(num3 + "is the lowest numver");
+        }
+    }
+}
+//q6 import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("enter your x1");
+        int x1 = scan.nextInt();
+        System.out.print("enter your y1");
+        int y1 = scan.nextInt();
+        System.out.print("enter your x2");
+        int x2 = scan.nextInt();
+        System.out.print("enter your y2");
+        int y2 = scan.nextInt();
+        double d;
+        d = ((x1 - x2) * (x1 - x2)) + ((y1 - y2) * (y1 - y2));
+        Math.sqrt(d);
+        System.out.print(d);
+    }
+}
+//q9
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("my name is");
+        String name = scan.nextLine();
+        System.out.print("My school is");
+        String school = scan.nextLine();
+        System.out.print("the number of subjects i study is");
+        int subjects = scan.nextInt();
+        System.out.print("my name is" + name);
+        System.out.print("my school is"+school);
+        System.out.print("the number of subjects i study"+subjects);
+}
+}
