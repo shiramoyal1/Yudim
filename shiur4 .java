@@ -114,3 +114,19 @@ public class Main {
     }
 }
 
+//q7
+    import java.util.Scanner;
+public class Main {
+    public static <scan> void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("enter a x");
+        int x1 = scan.nextInt();
+        System.out.print("enter a y");
+        int y1 = scan.nextInt();
+        System.out.print("enter a x2");
+        int x2 = scan.nextInt();
+        System.out.print("enter a y2");
+        int y2 = scan.nextInt();
+        System.out.print((x1 - x2) * (x1 - x2) + (y1 - y2));
+    }
+}
